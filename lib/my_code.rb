@@ -13,7 +13,7 @@ def reduce(array, tally = nil)
     sum = 0 
   end 
   array.length.times do |index|
-    tally = yield(tally, array[index])
+    sum = yield(tally, array[index])
   end
-  tally
+  sum 
 end
