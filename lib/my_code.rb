@@ -6,7 +6,7 @@ def map(array)
   return new_array
 end
 
-def reduce(array, tally = 0)
+def reduce(array, tally = nil)
   array.length.times do |index|
     tally = yield(tally, array[index])
   end
