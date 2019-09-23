@@ -9,6 +9,8 @@ end
 def reduce(array, tally = nil)
   if tally
     sum = tally
+    i = 0 
+  else
     
 end
   
