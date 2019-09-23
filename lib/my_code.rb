@@ -6,7 +6,12 @@ def map(array)
   return new_array
 end
 
-def reduce(array, tally = 0)
+def reduce(array, tally = nil)
+  if tally
+    sum = tally
+  else 
+    sum = 0 
+  end 
   array.length.times do |index|
     tally = yield(tally, array[index])
   end
