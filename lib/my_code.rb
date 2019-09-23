@@ -6,7 +6,8 @@ def map(array)
   return new_array
 end
 
-def reduce(array, 
+def reduce(array, tally = nil)
+  
 end
   
   
