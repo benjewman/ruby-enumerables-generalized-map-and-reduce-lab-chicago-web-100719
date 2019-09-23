@@ -13,6 +13,8 @@ def reduce(array, tally = nil)
   else
     sum = array[0]
     i = 1 
+  end 
+  
 end
   
   
