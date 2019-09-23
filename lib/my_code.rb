@@ -15,8 +15,8 @@ def reduce(array, tally = nil)
     i = 1 
   end 
   
-  while i < array.length do
-    
+  while i < array.length
+  
 end
   
   
