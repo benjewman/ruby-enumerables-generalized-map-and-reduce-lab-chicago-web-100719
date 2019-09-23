@@ -7,9 +7,11 @@ def map(array)
 end
 
 def reduce(array, tally = nil)
-  if tally
-    sum = tally
-    i = 0 
-  else 
-    sum = array[0]
+  
+  array.length.times do |index|
+    tally = yield(tally, array[index])
+  end
+  tally
 end
+  
+  
