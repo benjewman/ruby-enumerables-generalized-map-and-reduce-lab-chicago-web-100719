@@ -7,5 +7,6 @@ def map(array)
 end
 
 def reduce(array, tally = nil)
-  tally
+  if tally
+    
 end
