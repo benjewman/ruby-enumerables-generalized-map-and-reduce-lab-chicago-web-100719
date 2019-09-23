@@ -8,5 +8,7 @@ end
 
 def reduce(array, tally = 0)
   array.length.times do |index|
-    new_array[index] = yield(tal)
+    tally = yield(tally, array[index])
+  end
+  tally
 end
