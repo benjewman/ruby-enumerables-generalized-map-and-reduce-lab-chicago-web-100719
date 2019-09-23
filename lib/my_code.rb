@@ -11,7 +11,8 @@ def reduce(array, tally = nil)
     sum = tally
     i = 0 
   else
-    
+    sum = array[0]
+    i = 1 
 end
   
   
